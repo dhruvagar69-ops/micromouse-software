@@ -46,21 +46,21 @@ using namespace std;
 #define ENC_B2 35
 
 #define TICKS_PER_CELL  1085 // to be tuned
-#define TICKS_TURN      375 // to be tuned
-#define BASE_SPEED      150 // to be tuned
-#define MIN_SPEED       80 // to be tuned
-#define TURN_SPEED      120 // to be tuned
+#define TICKS_TURN      375  // to be tuned
+#define BASE_SPEED      150  // to be tuned
+#define MIN_SPEED       80   // to be tuned
+#define TURN_SPEED      120  // to be tuned
 
 #define WALL_THRESHOLD_FRONT 180 // to be tuned
 #define WALL_THRESHOLD_SIDE  180 // to be tuned
 #define WALL_CENTER_DIST     100 // to be tuned
 
-#define KP_ENC  2.0f // to be tuned
+#define KP_ENC  2.0f   // to be tuned
 #define KI_ENC  0.001f // to be tuned
-#define KD_ENC  0.5f // to be tuned
-#define KP_WALL 0.3f // to be tuned
-#define KI_WALL 0.0f // to be tuned
-#define KD_WALL 0.1f // to be tuned
+#define KD_ENC  0.5f   // to be tuned
+#define KP_WALL 0.3f   // to be tuned
+#define KI_WALL 0.0f   // to be tuned
+#define KD_WALL 0.1f   // to be tuned
 
 #define UP    0
 #define DOWN  1
